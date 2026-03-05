@@ -1,15 +1,28 @@
 {
-  "name": "jobs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@editorup/jobs-chart",
+  "version": "1.0.16",
+  "description": "A dedicated package for chart generation tools.",
+  "main": "dist/chart/index.cjs",
+  "module": "dist/chart/index.mjs",
+  "types": "dist/chart/index.d.ts",
+  "files": [
+    "dist/chart"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/chart/index.mjs",
+      "require": "./dist/chart/index.cjs",
+      "types": "./dist/chart/index.d.ts"
+    }
+  },
   "scripts": {
     "test": "vitest",
     "test:run": "vitest run",
     "test:watch": "vitest --watch",
     "dev": "mastra dev",
     "build": "mastra build",
-    "start": "mastra start"
+    "start": "mastra start",
+    "build:chart": "rimraf dist/chart && rollup -c && tsc -p tsconfig.chart.json --emitDeclarationOnly"
   },
   "keywords": [],
   "author": "",
@@ -18,19 +31,22 @@
   "engines": {
     "node": ">=20.9.0"
   },
-  "dependencies": {
-    "@ai-sdk/google": "^1.2.19",
-    "@mastra/core": "^0.10.3",
-    "@mastra/libsql": "^0.10.1",
-    "@mastra/loggers": "^0.10.1",
-    "@mastra/memory": "^0.10.2",
-    "zod": "^3.25.56"
-  },
   "devDependencies": {
+    "@mastra/core": "^0.10.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@types/chroma-js": "^3.1.1",
     "@types/node": "^22.15.30",
     "mastra": "^0.10.3",
     "typescript": "^5.8.3",
-    "vitest": "^1.6.0",
-    "@vitest/ui": "^1.6.0"
+    "zod": "^3.25.56"
+  },
+  "peerDependencies": {
+    "@mastra/core": "^0.10.3",
+    "zod": "^3.23.56",
+    "chroma-js": "^3.1.2"
+  },
+  "dependencies": {
+    "chroma-js": "^3.1.2",
+    "rimraf": "^6.0.1"
   }
 }

@@ -1,0 +1,1121 @@
+{
+	"data": [
+		[
+			["年份", "美国", "中国", "日本", "德国", "英国", "法国", "印度", "意大利", "巴西", "加拿大", "俄罗斯", "韩国", "澳大利亚", "西班牙", "墨西哥", "荷兰", "土耳其", "瑞士", "瑞典", "比利时", "阿根廷", "泰国", "奥地利", "挪威", "尼日利亚"],
+			["1960", "5433", "597", "443", "0", "732", "622", "370", "404", "152", "405", "0", "40", "186", "121", "130", "123", "140", "95", "158", "117", "0", "28", "66", "52", "42"],
+			["1961", "5633", "501", "535", "0", "777", "675", "392", "448", "152", "409", "0", "24", "197", "138", "142", "135", "80", "107", "172", "124", "0", "30", "73", "56", "45"],
+			["1962", "6051", "472", "607", "0", "812", "756", "422", "504", "199", "422", "0", "28", "199", "161", "152", "146", "89", "119", "187", "133", "245", "33", "78", "61", "49"],
+			["1963", "6386", "507", "695", "0", "866", "848", "484", "577", "230", "450", "0", "40", "215", "191", "170", "159", "104", "131", "202", "143", "183", "35", "84", "65", "52"],
+			["1964", "6858", "597", "817", "0", "944", "940", "565", "632", "212", "494", "0", "35", "238", "213", "201", "187", "112", "145", "225", "160", "256", "39", "92", "72", "56"]
+		]
+	],
+	"pipe": "cross",
+	"props": {
+		"map": [{
+			"name": "年份",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "美国",
+			"type": "bar",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "中国",
+			"type": "bar",
+			"index": 2,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "日本",
+			"type": "bar",
+			"index": 3,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "德国",
+			"type": "bar",
+			"index": 4,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "英国",
+			"type": "bar",
+			"index": 5,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "法国",
+			"type": "bar",
+			"index": 6,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "印度",
+			"type": "bar",
+			"index": 7,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "意大利",
+			"type": "bar",
+			"index": 8,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "巴西",
+			"type": "bar",
+			"index": 9,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "加拿大",
+			"type": "bar",
+			"index": 10,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "俄罗斯",
+			"type": "bar",
+			"index": 11,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "韩国",
+			"type": "bar",
+			"index": 12,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "澳大利亚",
+			"type": "bar",
+			"index": 13,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "西班牙",
+			"type": "bar",
+			"index": 14,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "墨西哥",
+			"type": "bar",
+			"index": 15,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "荷兰",
+			"type": "bar",
+			"index": 16,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "土耳其",
+			"type": "bar",
+			"index": 17,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "瑞士 ",
+			"type": "bar",
+			"index": 18,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "瑞典 ",
+			"type": "bar",
+			"index": 19,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "比利时 ",
+			"type": "bar",
+			"index": 20,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "阿根廷 ",
+			"type": "bar",
+			"index": 21,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "泰国 ",
+			"type": "bar",
+			"index": 22,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "奥地利 ",
+			"type": "bar",
+			"index": 23,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "挪威 ",
+			"type": "bar",
+			"index": 24,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "尼日利亚 ",
+			"type": "bar",
+			"index": 25,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}],
+		"axis": {
+			"show": true,
+			"xAxis": [{
+				"grid": {
+					"show": true,
+					"type": "dashed",
+					"color": {
+						"color": "#efefef",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#efefef",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "value",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"suffix": "",
+					"fontSize": 15.25,
+					"direction": "auto",
+					"fontFamily": "Misans 常规"
+				},
+				"range": [],
+				"position": "top",
+				"stepOfLabel": "auto"
+			}],
+			"yAxis": [{
+				"grid": {
+					"show": false,
+					"type": "solid",
+					"color": {
+						"color": "#D9D9D9",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#efefef",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "category",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"fontSize": 17.75,
+					"fontFamily": "Misans 常规"
+				},
+				"position": "left"
+			}]
+		},
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#5956F4",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag63.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#ea455d",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#64F2AE",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag1.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FEC530",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#FEC530",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag93.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FE7541",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#FE7541",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag190.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#BB88FD",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#BB88FD",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag33.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#ffa9c9",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#4A72FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag180.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#67A4FF",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#67A4FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag89.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#6DDE7F",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#6DDE7F",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag103.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#F4C64C",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#F4C64C",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag175.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FD8D62",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FD8D62",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag171.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#9A6DFA",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#9A6DFA",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag6.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#8B89F4",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#8B89F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag69.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FFA786",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FFA786",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag32.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FED771",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FED771",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag174.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#44E296",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#44E296",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag115.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#5956F4",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag121.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#64F2AE",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#64F2AE",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag92.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FEC530",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FEC530",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag90.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FE7541",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FE7541",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag47.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#BB88FD",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#BB88FD",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag181.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#4A72FF",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#4A72FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag206.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#67A4FF",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#67A4FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag172.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#6DDE7F",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#6DDE7F",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag207.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#F4C64C",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#F4C64C",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag46.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FD8D62",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FD8D62",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.aitubiao.com/static/images/dynamic/flag106.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"symbolType": "multiple",
+			"controlType": "multiple"
+		},
+		"type": "dynamic-bar",
+		"label": {
+			"show": true,
+			"overlap": false,
+			"highlight": false,
+			"textLabel": {
+				"show": false,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 14,
+				"fontFamily": "Misans 常规",
+				"positionChoice": "inside-right",
+				"positionOptions": ["inside-left", "inside-right", "outside-right"]
+			},
+			"timeLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 40,
+				"fontFamily": "Misans 中等"
+			},
+			"valueLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 20,
+				"fontFamily": "Misans 常规",
+				"valueIndex": "all"
+			},
+			"numberLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 17.75,
+				"fontFamily": "Misans 中等"
+			}
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "动态条形图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": false,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 14,
+			"position": {
+				"x": "center",
+				"y": "bottom"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"bar": {
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0,
+					"radius": [0, 0, 0, 0]
+				},
+				"barOrderBy": "desc",
+				"countOfBars": 10,
+				"widthPercent": 0.88
+			},
+			"symbol": {
+				"show": true,
+				"border": {
+					"color": null,
+					"width": 0
+				},
+				"padding": 4,
+				"maskChoice": "rect",
+				"widthPercent": 0.68,
+				"positionChoice": "inside-right"
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": true,
+			"show": true,
+			"preview": true,
+			"duration": 1,
+			"endPause": 1,
+			"timeline": true,
+			"moveStyle": "vertical-sync-stretch",
+			"xAxisTick": "auto",
+			"startDelay": 0,
+			"transition": true,
+			"moveDuration": 1
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"style": "1000.00",
+			"decimalPlaces": null
+		}
+	}
+}

@@ -1,0 +1,321 @@
+{
+	"data": [
+		[
+			["类型", "比例"],
+			["类型A", "85%"],
+			["类型B", "74%"],
+			["类型C", "60%"],
+			["类型D", "57%"],
+			["类型E", "50%"],
+			["类型F", "43%"],
+			["类型G", "37%"],
+			["类型H", "33%"]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "名称",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": true,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "值",
+			"type": "symbol",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}],
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#4024ef",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 1,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 0.46
+					},
+					"radius": 3
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#266bf2",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#44abff",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#43e799",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#fec530",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#fda63d",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#ff8a00",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#ff6e00",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/circle-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"symbolType": "single",
+			"controlType": "multiple"
+		},
+		"type": "liquid",
+		"label": {
+			"show": true,
+			"overlap": false,
+			"highlight": false,
+			"textLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 17,
+				"fontFamily": "Misans 常规",
+				"positionChoice": "outside-bottom"
+			},
+			"numberLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 29.5,
+				"fontFamily": "Misans 中等",
+				"positionChoice": "inside-center"
+			},
+			"highContrast": true
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "水波图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": false,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 15.25,
+			"position": {
+				"x": "center",
+				"y": "bottom"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"symbol": {
+				"iconPerRow": 4
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": false,
+			"show": false,
+			"duration": 2,
+			"endPause": 1,
+			"moveStyle": null,
+			"startDelay": 0,
+			"transition": false
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"decimalPlaces": null,
+			"separatorType": "1000.00"
+		}
+	}
+}

@@ -1,0 +1,179 @@
+{
+	"data": [
+		[
+			["种类", "数量"],
+			["类型一", "45"],
+			["类型二", "30"],
+			["其它", "20"]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "名称",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": true,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "值",
+			"type": "symbol",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}],
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#8a5dea",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#0075FF",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/hexagon-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#5aa7ff",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#0075FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/hexagon-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#a7adb8",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#0075FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/hexagon-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"symbolType": "single",
+			"controlType": "multiple"
+		},
+		"type": "symbol-pie",
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": false,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "某城市财政支出",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": true,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 15.25,
+			"position": {
+				"x": "right",
+				"y": "top"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"symbol": {
+				"standard": "default",
+				"countOfRow": 4,
+				"iconPerRow": 10,
+				"scaleRatio": 0.8
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": false,
+			"show": false,
+			"duration": 2,
+			"endPause": 1,
+			"moveStyle": null,
+			"startDelay": 0,
+			"transition": false
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		}
+	}
+}

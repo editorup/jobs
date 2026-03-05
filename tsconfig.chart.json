@@ -1,0 +1,10 @@
+// tsconfig.chart.json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "noEmit": false,
+    "outDir": "./dist/chart"
+  },
+  "include": ["src/chart/**/*"]
+}

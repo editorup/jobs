@@ -1,0 +1,356 @@
+{
+	"data": [
+		[
+			["年份", "手机游戏", "平板游戏", "客户端游戏", "家用游戏机", "网页游戏"],
+			[2009, 7664, 747, 5334, 2546, 2648],
+			[2012, 10286, 1195, 4731, 1909, 2423],
+			[2015, 13094, 2277, 4572, 2798, 2182],
+			[2018, 14964, 5943, 5495, 3378, 1596],
+			[2021, 17968, 11385, 4116, 3371, 1356]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "X轴对象",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值列",
+			"type": "bar",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值列",
+			"type": "bar",
+			"index": 2,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值列",
+			"type": "bar",
+			"index": 3,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值列",
+			"type": "bar",
+			"index": 4,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值列",
+			"type": "bar",
+			"index": 5,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}],
+		"axis": {
+			"show": true,
+			"xAxis": [{
+				"grid": {
+					"show": false,
+					"type": "solid",
+					"color": {
+						"color": "#D9D9D9",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#4D4D4D",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "category",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"fontSize": 15.25,
+					"direction": "auto",
+					"fontFamily": "Misans 中等"
+				},
+				"position": "bottom"
+			}],
+			"yAxis": [{
+				"grid": {
+					"show": true,
+					"type": "dashed",
+					"color": {
+						"color": "#D9D9D9",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": false,
+					"color": {
+						"color": "#4D4D4D",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "value",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"fontSize": 15.25,
+					"fontFamily": "Misans 常规"
+				},
+				"range": [],
+				"position": "left",
+				"stepOfLabel": "auto"
+			}]
+		},
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#5956F4",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#64F2AE",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#64F2AE",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FEC530",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#FEC530",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FE7541",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#FE7541",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#BB88FD",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#BB88FD",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"controlType": "multiple"
+		},
+		"type": "percent-stacked-column",
+		"label": {
+			"show": false,
+			"overlap": false,
+			"barLabel": {
+				"show": true,
+				"color": {
+					"color": "#ffffff",
+					"opacity": 1
+				},
+				"fontSize": 17,
+				"fontFamily": "Misans 中等",
+				"positionChoice": "center"
+			},
+			"highlight": false
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "百分比堆叠柱状图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": true,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 15.25,
+			"position": {
+				"x": "right",
+				"y": "top"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"bar": {
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0,
+					"radius": [0, 0, 0, 0]
+				},
+				"widthPercent": 0.5
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": false,
+			"show": false,
+			"duration": 2,
+			"endPause": 1,
+			"moveStyle": null,
+			"startDelay": 0,
+			"transition": false
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"decimalPlaces": null,
+			"separatorType": "1000.00"
+		}
+	}
+}

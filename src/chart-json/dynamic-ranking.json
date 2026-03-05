@@ -1,0 +1,490 @@
+{
+	"data": [
+		[
+			["品牌", "评分"],
+			["比亚迪", "98"],
+			["小鹏", "95"],
+			["蔚来", "92"],
+			["岚图", "88"],
+			["极氪", "85"],
+			["理想", "80"],
+			["AITO", "75"],
+			["深蓝", "65"],
+			["埃安", "60"]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "名称",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": true,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "值",
+			"type": "bar",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}],
+		"axis": {
+			"show": true,
+			"xAxis": [{
+				"grid": {
+					"show": true,
+					"type": "dashed",
+					"color": {
+						"color": "#efefef",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#4D4D4D",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "value",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"suffix": "",
+					"fontSize": 14,
+					"direction": "auto",
+					"fontFamily": "Misans 常规"
+				},
+				"range": [],
+				"position": "top",
+				"stepOfLabel": "auto"
+			}],
+			"yAxis": [{
+				"grid": {
+					"show": false,
+					"type": "solid",
+					"color": {
+						"color": "#D9D9D9",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#4D4D4D",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "category",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"fontSize": 14,
+					"fontFamily": "Misans 中等"
+				},
+				"position": "left"
+			}]
+		},
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#5956F4",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843729945.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#64F2AE",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#64F2AE",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843730399.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FEC530",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FEC530",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843730909.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FE7541",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#FE7541",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843733448.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#BB88FD",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#BB88FD",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843731677.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#4A72FF",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#4A72FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843732108.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#67A4FF",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#67A4FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843733841.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#6DDE7F",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#6DDE7F",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843731275.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#F4C64C",
+					"opacity": 1
+				},
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 0,
+					"color": {
+						"color": "#F4C64C",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/image/clzb5ewqk0003j5yc55w8zbuk/1762843728315.png?x-oss-process=image/interlace,1/resize,m_pad,w_96,h_96/quality,Q_60"
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"symbolType": "multiple",
+			"controlType": "multiple"
+		},
+		"type": "dynamic-ranking",
+		"label": {
+			"show": true,
+			"overlap": false,
+			"highlight": false,
+			"rankLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"fontFamily": "Misans 中等"
+			},
+			"textLabel": {
+				"show": false,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 14,
+				"fontFamily": "Misans 常规",
+				"positionChoice": "inside-right",
+				"positionOptions": ["inside-left", "inside-right", "outside-right"]
+			},
+			"numberLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 16,
+				"fontFamily": "Misans 中等"
+			}
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "动态排名图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": false,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 14,
+			"position": {
+				"x": "center",
+				"y": "bottom"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"bar": {
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0,
+					"radius": [0, 0, 0, 0]
+				},
+				"barOrderBy": "desc",
+				"countOfBars": 6,
+				"widthPercent": 0.7
+			},
+			"symbol": {
+				"show": true,
+				"border": {
+					"color": null,
+					"width": 1
+				},
+				"padding": 0,
+				"maskChoice": "rect",
+				"widthPercent": 0.68,
+				"positionChoice": "inside-right"
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": true,
+			"show": true,
+			"preview": true,
+			"duration": 1,
+			"endPause": 1,
+			"timeline": false,
+			"moveStyle": "vertical-sync-stretch",
+			"xAxisTick": "auto",
+			"startDelay": 0,
+			"transition": true,
+			"moveDuration": 1
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"decimalPlaces": null,
+			"separatorType": "1000.00"
+		}
+	}
+}

@@ -1,0 +1,194 @@
+{
+	"data": [
+		[
+			["地区", "销量"],
+			["类型A", "3500"],
+			["类型B", "2905"],
+			["类型C", "2460"],
+			["类型D", "1600"],
+			["类型E", "1259"],
+			["类型F", "700"]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "名称",
+			"type": "",
+			"index": 0,
+			"function": "objCol",
+			"isLegend": true,
+			"yAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "值",
+			"type": "symbol",
+			"index": 1,
+			"function": "vCol",
+			"isLegend": false,
+			"xAxisIndex": 0,
+			"configurable": true
+		}],
+		"axis": {
+			"show": true,
+			"yAxis": [{
+				"grid": {
+					"show": false,
+					"type": "solid",
+					"color": {
+						"color": "#D9D9D9",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"line": {
+					"show": false,
+					"color": {
+						"color": "#4D4D4D",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "category",
+				"label": {
+					"show": true,
+					"angle": 0,
+					"color": {
+						"color": "#000000",
+						"opacity": 1
+					},
+					"fontSize": 15.25,
+					"direction": "auto",
+					"fontFamily": "Misans 常规"
+				},
+				"position": "left"
+			}]
+		},
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#6579e3",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 0,
+					"show": false,
+					"type": "outer",
+					"angle": 45,
+					"color": {
+						"color": "#000000",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"symbol": {
+					"url": "https://cdn.core.editorup.com/resource/vector/icon/basic/square-fill.svg"
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"symbolType": "multiple",
+			"controlType": "single"
+		},
+		"type": "symbol-bar",
+		"label": {
+			"show": true,
+			"overlap": false,
+			"barLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 20.10627809303397,
+				"fontFamily": "Misans 中等",
+				"positionChoice": "outside-right"
+			},
+			"highlight": false
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "符号柱状图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": true,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 15.25,
+			"position": {
+				"x": "right",
+				"y": "bottom"
+			},
+			"fontFamily": "Misans 常规",
+			"showSingleValue": true
+		},
+		"display": {
+			"symbol": {
+				"standard": "precise",
+				"iconValue": "auto",
+				"scaleRatio": 0.82,
+				"widthPercent": 0.8
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": false,
+		"animation": {
+			"loop": false,
+			"show": false,
+			"duration": 2,
+			"endPause": 1,
+			"moveStyle": null,
+			"startDelay": 0,
+			"transition": false
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"decimalPlaces": null,
+			"separatorType": "1000.00"
+		}
+	}
+}

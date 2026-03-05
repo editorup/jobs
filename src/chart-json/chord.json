@@ -1,0 +1,352 @@
+{
+	"data": [
+		[
+			["来源", "目标", "值"],
+			["教学中台", "课程设计", "1600"],
+			["教学中台", "课堂教学", "1400"],
+			["教学中台", "作业练习", "1100"],
+			["教学中台", "学习评估", "950"],
+			["教学中台", "教学反馈", "880"],
+			["教学中台", "教务管理", "760"],
+			["课程设计", "教学中台", "420"],
+			["课堂教学", "教学中台", "380"],
+			["作业练习", "教学中台", "340"],
+			["学习评估", "教学中台", "310"],
+			["教学反馈", "教学中台", "280"],
+			["教务管理", "教学中台", "250"],
+			["课程设计", "课堂教学", "360"],
+			["课堂教学", "课程设计", "240"],
+			["课程设计", "作业练习", "300"],
+			["作业练习", "课程设计", "180"],
+			["课堂教学", "学习评估", "260"],
+			["学习评估", "课堂教学", "160"],
+			["作业练习", "学习评估", "220"],
+			["学习评估", "作业练习", "140"],
+			["教学反馈", "课堂教学", "200"],
+			["课堂教学", "教学反馈", "150"],
+			["教学反馈", "学习评估", "190"],
+			["教务管理", "课程设计", "170"],
+			["教务管理", "课堂教学", "160"]
+		]
+	],
+	"pipe": "key_value",
+	"props": {
+		"map": [{
+			"name": "起始项",
+			"type": "",
+			"index": 0,
+			"function": "sourceCol",
+			"isLegend": true,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "目标项",
+			"type": "",
+			"index": 1,
+			"function": "targetCol",
+			"isLegend": true,
+			"xAxisIndex": 0,
+			"configurable": true
+		}, {
+			"name": "数值",
+			"type": "chord",
+			"index": 2,
+			"function": "vCol",
+			"isLegend": false,
+			"yAxisIndex": 0,
+			"configurable": true
+		}],
+		"axis": {
+			"show": false,
+			"angleAxis": [{
+				"line": {
+					"show": true,
+					"color": {
+						"color": "#616161",
+						"opacity": 1
+					},
+					"width": 1
+				},
+				"type": "value",
+				"label": {
+					"show": true,
+					"color": {
+						"color": "#616161",
+						"opacity": 1
+					},
+					"suffix": "",
+					"fontSize": 5.25,
+					"fontFamily": "Misans 常规"
+				},
+				"stepOfLabel": "auto"
+			}]
+		},
+		"fill": {
+			"props": [{
+				"color": {
+					"color": "#5956F4",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#5956F4",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#64F2AE",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#64F2AE",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FEC530",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#FEC530",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#FE7541",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#FE7541",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#BB88FD",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#BB88FD",
+						"opacity": 0.5
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#4A72FF",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#4A72FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}, {
+				"color": {
+					"color": "#67A4FF",
+					"opacity": 1
+				},
+				"shadow": {
+					"blur": 17,
+					"show": false,
+					"type": "inner",
+					"angle": 11,
+					"color": {
+						"color": "#67A4FF",
+						"opacity": 1
+					},
+					"radius": 0
+				},
+				"texture": {
+					"url": ""
+				}
+			}],
+			"controlType": "multiple"
+		},
+		"type": "chord",
+		"label": {
+			"show": true,
+			"overlap": false,
+			"highlight": false,
+			"textLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 12.0,
+				"fontFamily": "Misans 常规",
+				"positionChoice": "outside-circumference"
+			},
+			"numberLabel": {
+				"show": true,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 14.5,
+				"fontFamily": "Misans 中等",
+				"positionChoice": "outside-circumference"
+			},
+			"ribbonLabel": {
+				"show": false,
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"suffix": "",
+				"fontSize": 12,
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"title": {
+			"show": false,
+			"subTitle": {
+				"show": true,
+				"text": "副标题",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 16,
+				"fontFamily": "Misans 常规"
+			},
+			"mainTitle": {
+				"show": true,
+				"text": "弦图",
+				"color": {
+					"color": "#333333",
+					"opacity": 1
+				},
+				"fontSize": 24,
+				"position": {
+					"x": "center",
+					"y": "top"
+				},
+				"fontFamily": "Misans 常规"
+			}
+		},
+		"legend": {
+			"show": false,
+			"color": {
+				"color": "#333333",
+				"opacity": 1
+			},
+			"display": "horizontal",
+			"fontSize": 15.25,
+			"position": {
+				"x": "center",
+				"y": "bottom"
+			},
+			"fontFamily": "Misans 常规"
+		},
+		"display": {
+			"chord": {
+				"border": {
+					"type": "solid",
+					"color": null,
+					"width": 0
+				},
+				"lineColor": "gradient",
+				"nodeAngle": 0,
+				"trunkAngle": 0.005,
+				"trunkIndex": 0,
+				"arrowHeight": 0,
+				"branchAngle": 0.005,
+				"fillOpacity": 0.3,
+				"ribbonAngle": 0,
+				"cornerRadius": 0,
+				"nodeThickness": 0.14
+			}
+		},
+		"padding": {
+			"top": 20,
+			"left": 24,
+			"right": 24,
+			"bottom": 23
+		},
+		"tooltip": true,
+		"animation": {
+			"loop": false,
+			"show": false,
+			"preview": true,
+			"duration": 2,
+			"endPause": 1,
+			"moveStyle": "clockwise-expand",
+			"startDelay": 0,
+			"transition": false
+		},
+		"background": {
+			"blur": 0,
+			"show": false,
+			"color": {
+				"color": "#ffffff",
+				"opacity": 1
+			},
+			"border": {
+				"radius": 0
+			},
+			"texture": ""
+		},
+		"numberFormat": {
+			"decimalPlaces": null,
+			"separatorType": "1000.00"
+		}
+	}
+}
